@@ -1,0 +1,18 @@
+{
+  "name": "subfinder-js",
+  "version": "1.0.0",
+  "description": "Fast passive subdomain enumeration tool JavaScript ",
+  "main": "subfinder.js",
+  "bin": {
+    "subfinder-js": "./subfinder.js"
+  },
+  "scripts": {
+    "start": "node subfinder.js",
+    "test": "node subfinder.js -ls"
+  },
+  "keywords": ["subdomain", "enumeration", "osint", "recon", "bugbounty"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
